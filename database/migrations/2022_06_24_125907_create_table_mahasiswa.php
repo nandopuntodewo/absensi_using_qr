@@ -19,6 +19,7 @@ class CreateTableMahasiswa extends Migration
             $table->string('nama');
             $table->string('nim')->unique();
             $table->string('alamat');
+            $table->string('kelompok');
             $table->string('absen1')->nullable();
             $table->string('absen2')->nullable();
             $table->string('absen3')->nullable();

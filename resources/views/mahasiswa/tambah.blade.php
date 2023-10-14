@@ -20,11 +20,11 @@
                         </div>
                          <div class="form-floating mb-3">
                             <p><b>Alamat</b></p>
-                            <input type="text-area" class="form-control" id="" name="alamat">
+                            <input type="text-area" class="form-control" id="alamat" name="alamat">
                         </div>
                         <div class="form-group mb-2">
                             <label for="exampleSelectRounded0">Kelas</label>
-                            <select class="custom-select rounded-0" id="exampleSelectRounded0" name="kelompok">
+                            <select class="custom-select rounded-0" id="kelompok" name="kelompok">
                                 <option value="A1">A1</option>
                                 <option value="A2-1">A2-1</option>
                                 <option value="A2-2">A2-2</option>

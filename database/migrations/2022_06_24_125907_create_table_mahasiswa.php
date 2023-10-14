@@ -18,7 +18,7 @@ class CreateTableMahasiswa extends Migration
             $table->string('qr_code');
             $table->string('nama');
             $table->string('nim')->unique();
-            $table->string('prodi');
+            $table->string('alamat');
             $table->string('absen1')->nullable();
             $table->string('absen2')->nullable();
             $table->string('absen3')->nullable();
